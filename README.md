@@ -17,10 +17,11 @@ Follow these steps to set up and configure the environment for your specific nee
   - At least one command line based sequence alignment algorithm  
 </details>
 <details>
-  <summary>2. Generate benchmarking pipeline</summary>
-  - Install Ruby 3.2.2
-  - Install bundler ```gem install bundler```
-  - Install dependencies ```bundle install```
+  <summary>2. Benchmarking preparation</summary>
+  - Create directories ```mkdir var/config var/results``` 
+  - Either import benchmarking sequences and pairwise aligments or
+  - Create benchmarking sequences and pairwise alignments ```touch var/config/run.yml```
+  - Configure alignment algorithms ```touch var/config/alognments.yml```
   - At least one command line based sequence alignment algorithm
 </details>
 1. **Environment Setup:**
